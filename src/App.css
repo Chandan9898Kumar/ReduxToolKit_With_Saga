@@ -2,37 +2,149 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  text-decoration: underline;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: darkcyan;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.LoginHead {
+  width: 50%;
+  background-color: cadetblue;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.LoginTitle {
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: azure;
+  text-transform: uppercase;
+  text-align: center;
+}
+.formHead {
+  display: block;
+  margin-top: 25px;
+  padding: 20px;
+  overflow: hidden;
   flex-direction: column;
-  align-items: center;
+}
+
+.appName {
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bolder;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.selector {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.selectOption {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bolder;
+  color: darkolivegreen;
+  border: none;
+}
+.selectOption:focus {
+  outline: none;
+}
+
+.CheckBox {
+  background-color: rgba(51, 51, 95, 0.4);
+  height: 75px;
+  margin-top: 10px;
+  width: 400px;
+  margin: auto;
+}
+
+.button{
+  display: block;
+  margin-top: 20px;
+  /* background-color: azure; */
+}
+
+
+
+.ProgressHead {
+  width: 50%;
+  background-color: cadetblue;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5%;
+}
+.ProgressTitle {
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: azure;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.waitText{
+  width: 100%;
+  background-color: rgb(196, 206, 207);
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.8);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 10px;
+  height: 80px;
+}
+
+.downloadHead{
+  width: 50%;
+  background-color: cadetblue;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.downLoadTitle{
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: azure;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.downloadButtons{
+  display: flex;
+  width: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  gap: 80px;
+  padding: 20px;
 }
