@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import "../App.css";
 
 const ButtonsComponent = ({ onClick, label, ...prop }) => {
+  
   const { landingPage, ProgressPages, downloadPage, ...props } = useSelector(
     (state) => state.ValidationData
   );
