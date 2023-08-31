@@ -24,7 +24,7 @@ const LoginPage = () => {
     let element = document.querySelector("#request");
     if (element) {
       element.style.left = `${
-        props.requestValue == 1
+        Number(props.requestValue) === 1
           ? Number(12)
           : Number((props.requestValue * 2) / 1.5)
       }%`;
